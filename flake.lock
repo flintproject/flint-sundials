@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1687379288,
+        "narHash": "sha256-cSuwfiqYfeVyqzCRkU9AvLTysmEuSal8nh6CYr+xWog=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ef0bc3976340dab9a4e087a0bcff661a8b2e87f3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "sundials": "sundials"
+      }
+    },
+    "sundials": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1474997249,
+        "narHash": "sha256-IWGe7mt7S11aimsK8bJ2oavkfY31wMjJuK47rKt9YpE=",
+        "owner": "LLNL",
+        "repo": "sundials",
+        "rev": "7ed895fd102226dbc52225e6b2c6e26ef1cafa0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LLNL",
+        "ref": "v2.7.0",
+        "repo": "sundials",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
