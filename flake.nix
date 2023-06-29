@@ -21,9 +21,14 @@
       flint-sundials = stdenv.mkDerivation {
         pname = "flint-sundials";
         version = "2.7.0";
+
         nativeBuildInputs = [ cmake python3 ];
+
         src = sundials;
+
         # doCheck = true;
+
+        enableParallelBuilding = true;
       };
 
     in {
