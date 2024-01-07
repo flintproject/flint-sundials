@@ -1,7 +1,7 @@
 {
   description = "A flake for building SUNDIALS for Flint";
 
-  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-23.05;
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-23.11;
 
   inputs.sundials = {
     url = github:LLNL/sundials/v2.7.0;
